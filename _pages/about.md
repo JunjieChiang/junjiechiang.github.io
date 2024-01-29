@@ -18,20 +18,18 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🎓 About me
-I am now a visiting student (research assistant) at Shenzhen Institute of Advanced Technology CAS, supervised by [Prof. Zhile Yang](https://scholar.google.com/citations?user=XcXa6wEAAAAJ&hl=zh-CN&oi=ao) and [A/Prof. Chengke Wu](https://scholar.google.com/citations?user=DzwZYrQAAAAJ&hl=zh-CN). My current research interests include:
-- AI+.
+I am now a research assistant at Shenzhen Institute of Advanced Technology CAS, supervised by [Prof. Zhile Yang](https://scholar.google.com/citations?user=XcXa6wEAAAAJ&hl=zh-CN&oi=ao) and [A/Prof. Chengke Wu](https://scholar.google.com/citations?user=DzwZYrQAAAAJ&hl=zh-CN). My current research interests include:
 - Knowledge Engineering
 - Natural Language Processing
-- Computer Vision
 - Deep Learning
+- AI4Industry
 
-Previously, I graduated from Shenyang Ligong University with a bachelor’s degree in 2022. My research directions include the intersection
-of knowledge engineering, natural language processing, computer vision and machine learning, and their applications in areas such as smart construction and smart grids.
+Previously, I graduated from Shenyang Ligong University with a bachelor’s degree in 2022. My research directions include the intersection of natural language processing, knowledge engineering, computer vision and machine learning, and their applications in areas such as smart construction and smart grids.
 
 ➡️ Download my [Resumé](./uploads/Jiang's CV.pdf)
 
 # 🔥 News
-- *2023.10*: &nbsp;🎉🎉 Released a corpus and a dataset like NYT-formatted for relation extraction in the CEM industry. For more details see [here](https://github.com/Construction-Material/Construction-Dataset-CONSD).
+- *2023.10*: &nbsp;🎉🎉 Released a corpus and a dataset for entity-property relation extraction in CEM industry. For more details see [here](https://github.com/Construction-Material/Construction-Dataset-CONSD).
 - *2023.10*: &nbsp;🎉🎉 Released the code of relation extraction for construction documents. For more details see [here](https://github.com/Construction-Material/Ontology-for-Relation-Extraction-Ont4RE-).
 - *2023.04*: &nbsp;🎉🎉 Released the code of hydropower device detection. For more details see [here](https://codeocean.com/capsule/2938777/tree/v1)
 
@@ -97,7 +95,8 @@ Keywords: Action Recognition, Knowledge Distillation, Low Resolution, Constructi
 
 
 # 🎖 Honors and Awards
-- *2022.12* Best Student in the Smart Energy and Intelligent Computing (SEIC) Group in 2022, Shenzhen Institute of Advanced Technology, CAS
+- *2024.01* Dean's Innovation Award-Outstanding Graduate Student, Shenzhen Institute of Advanced Technology, CAS
+- *2022.12* The SEIC Outstanding Contribution Award, Shenzhen Institute of Advanced Technology, CAS
 - *2022.06* Excellent Undergraduate Thesis of Shenyang Ligong University, Shenyang Ligong University
 - *2019.11* Third Prize in Robot Competition of the School of Mechanical Engineering, Shenyang Ligong University
 

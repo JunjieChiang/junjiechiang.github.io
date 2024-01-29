@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jiang's"
-description              : "Focusing on AI+ covering NLP and CV applications in industries"
+description              : "Focusing on generative AI systems in industries"
 repository               : "JunjieChiang/chunchieh.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "JunjieChiang"
   google_plus      :
   keybase          :
   instagram        :
