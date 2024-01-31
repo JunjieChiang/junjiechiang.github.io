@@ -95,10 +95,11 @@ Keywords: Action Recognition, Knowledge Distillation, Low Resolution, Constructi
 
 
 # 🎖 Honors and Awards
-- *2024.01* Dean's Innovation Award-Outstanding Graduate Student, Shenzhen Institute of Advanced Technology, CAS
+- *2024.01* President's Scholarship-Excellent Award (top 5%), Shenzhen Institute of Advanced Technology, CAS
+- *2024.01* Director's Innovation Award-Outstanding Graduate Student, Shenzhen Institute of Advanced Integrated Technology, CAS-CUHK
 - *2022.12* The SEIC Outstanding Contribution Award, Shenzhen Institute of Advanced Technology, CAS
-- *2022.06* Excellent Undergraduate Thesis of Shenyang Ligong University, Shenyang Ligong University
-- *2019.11* Third Prize in Robot Competition of the School of Mechanical Engineering, Shenyang Ligong University
+- *2022.06* Excellent Undergraduate Thesis of Shenyang Ligong University, SYLU
+- *2019.11* Third Prize in Robot Competition of the Faculty of Mechanical Engineering, SYLU
 
 # 📖 Educations
 - *2022.06 - Present*, Visiting Student, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences
