@@ -24,7 +24,7 @@ I am now a research assistant at Shenzhen Institute of Advanced Technology CAS, 
 - Deep Learning
 - AI4Industry
 
-Previously, I graduated from Shenyang Ligong University with a bachelor’s degree in 2022. My research directions include the intersection of natural language processing, knowledge engineering, computer vision and machine learning, and their applications in areas such as smart construction and smart grids.
+Previously, I graduated from Shenyang Ligong University with B.Eng degree in 2022. My research directions include the intersection of natural language processing, knowledge engineering, computer vision and machine learning, and their applications in industries.
 
 ➡️ Download my [Resumé](./uploads/Jiang's CV.pdf)
 
@@ -89,17 +89,17 @@ Keywords: Action Recognition, Knowledge Distillation, Low Resolution, Constructi
 </div>
 
 ## Selected Patents
-- Yang, Z., **Jiang, J.**, Guo, Y., Liu, X., Wu, C. Method, System, and Related Equipment for Battery Surface Defect Detection Based on Machine Vision(基于机器视觉的电池表面缺陷检测方法、系统及相关设备). Invention patent, CN114972258B, [authorized](./images/patent_1.png)
-- Yang, Z., **Jiang, J.**, Liu, X., Guo, Y., Wu, C. A Real-time Optimization Control Method for Charging and Discharging States of a Hybrid Energy Storage System(一种混合储能系统充放电状态实时优化控制方法). Invention patent, CN115313447A, [authorized](./images/patent_2.png)
-- Guo, Y., **Jiang, J.**, Wu, C., Yang, ., Hu, T. Method, System, and Related Equipment for Defect Detection Based on Battery Surface Images(基于电池表面图像的缺陷检测方法、系统及相关设备). Invention patent, CN115272330A, [authorized](./images/patent_3.png)
-
+- Yang, Z., **Jiang, J.**, Guo, Y., Liu, X., Wu, C. Method, System, and Related Equipment for Battery Surface Defect Detection Based on Machine Vision. WIPO (PCT) Patent, WO2023226357A1, [publication](./images/PCT1.png)
+- Yang, Z., **Jiang, J.**, Liu, X., Guo, Y., Wu, C. A Real-time Optimization Control Method for Charging and Discharging States of a Hybrid Energy Storage System(一种混合储能系统充放电状态实时优化控制方法). National Invention Patent, CN115313447A, [authorized](./images/patent_2.png)
+- Guo, Y., **Jiang, J.**, Wu, C., Yang, ., Hu, T. Method, System, and Related Equipment for Defect Detection Based on Battery Surface Images(基于电池表面图像的缺陷检测方法、系统及相关设备). National Invention Patent, CN115272330A, [authorized](./images/patent_3.png)
+- Yang, Z., **Jiang, J.**, Guo, Y., Liu, X., Wu, C. Method, System, and Related Equipment for Battery Surface Defect Detection Based on Machine Vision(基于机器视觉的电池表面缺陷检测方法、系统及相关设备). National Invention Patent, CN114972258B, [authorized](./images/patent_1.png)
 
 # 🎖 Honors and Awards
-- *2024.01* President's Scholarship-Excellent Award (top 5%), Shenzhen Institute of Advanced Technology, CAS
-- *2024.01* Director's Innovation Award-Outstanding Graduate Student, Shenzhen Institute of Advanced Integrated Technology, CAS-CUHK
-- *2022.12* The SEIC Outstanding Contribution Award, Shenzhen Institute of Advanced Technology, CAS
+- *2024.01* SIAT President's Scholarship-Excellent Award (top 5%), Shenzhen Institute of Advanced Technology, CAS
+- *2024.01* Director's Innovation Award-Outstanding Graduate Student, Shenzhen Institute of Advanced Integrated Technology, CAS-CUHK(中国科学院香港中文大学深圳先进集成技术研究所)
+- *2022.12* The 2022 SEIC Outstanding Contribution Award, Shenzhen Institute of Advanced Technology, CAS
 - *2022.06* Excellent Undergraduate Thesis of Shenyang Ligong University, SYLU
-- *2019.11* Third Prize in Robot Competition of the Faculty of Mechanical Engineering, SYLU
+- *2019.11* Third Prize in Robot Competition of the School of Mechanical Engineering, SYLU
 
 # 📖 Educations
 - *2022.06 - Present*, Visiting Student, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences
