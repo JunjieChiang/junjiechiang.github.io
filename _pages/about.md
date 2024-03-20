@@ -26,7 +26,7 @@ I am now a research assistant at Shenzhen Institute of Advanced Technology CAS, 
 
 Previously, I graduated from Shenyang Ligong University with B.Eng degree in 2022. My research directions include the intersection of natural language processing, knowledge engineering, computer vision and machine learning, and their applications in industries.
 
-➡️ Download my [Resumé](./uploads/Jiang's CV.pdf)
+<!-- ➡️ Download my [Resumé](./uploads/Jiang's CV.pdf) -->
 
 # 🔥 News
 - *2023.10*: &nbsp;🎉🎉 Released a corpus and a dataset for entity-property relation extraction in CEM industry. For more details see [here](https://github.com/Construction-Material/Construction-Dataset-CONSD).
