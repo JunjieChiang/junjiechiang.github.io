@@ -19,14 +19,15 @@ redirect_from:
 
 # 🎓 About me
 I am now a research assistant at Shenzhen Institute of Advanced Technology CAS, supervised by [Prof. Zhile Yang](https://scholar.google.com/citations?user=XcXa6wEAAAAJ&hl=zh-CN&oi=ao) and [A/Prof. Chengke Wu](https://scholar.google.com/citations?user=DzwZYrQAAAAJ&hl=zh-CN). My current research interests include:
-- Knowledge Engineering
+- Information Retrieval
+- Large Language Model
 - Natural Language Processing
-- Deep Learning
-- AI4Industry
+- AI4Science
 
-Previously, I graduated from Shenyang Ligong University with B.Eng degree in 2022. My research directions include the intersection of natural language processing, knowledge engineering, computer vision and machine learning, and their applications in industries.
 
 <!-- ➡️ Download my [Resumé](./uploads/Jiang's CV.pdf) -->
+
+### 🔺*Last Update: 2024/07/04*
 
 # 🔥 News
 - *2023.10*: &nbsp;🎉🎉 Released a corpus and a dataset for entity-property relation extraction in CEM industry. For more details see [here](https://github.com/Construction-Material/Construction-Dataset-CONSD).
@@ -37,10 +38,10 @@ Previously, I graduated from Shenyang Ligong University with B.Eng degree in 202
 
 ## Preprint
 <!--paper1-->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Automation in Construction</div><img src='images/AIC.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Advanced Engineering Informatics</div><img src='images/AIC.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Ontology-based distant supervision for extracting entity-property relations in construction documents](https://github.com/JunjieChiang/Preprints/blob/main/Ontology-based%20distant%20supervision%20for%20extracting%20entity-property%20relations%20in%20construction%20documents.pdf)
+[Ont4RE: A computation framework for distant supervision and entity-property relation extraction in construction documents](https://github.com/JunjieChiang/Preprints/blob/main/Ontology-based%20distant%20supervision%20for%20extracting%20entity-property%20relations%20in%20construction%20documents.pdf)
 
 **Junjie Jiang**, Chengke Wu*, Wenjie Sun, Yong He, Yuanjun Guo, Su Yang, Zhile Yang
 - A novel framework Ont4RE is for distantly supervised relation extraction from CEM documents
@@ -96,6 +97,7 @@ Keywords: Action Recognition, Knowledge Distillation, Low Resolution, Constructi
 
 # 🎖 Honors and Awards
 - *2024.01* SIAT President's Scholarship-Excellent Award (top 5%), Shenzhen Institute of Advanced Technology, CAS
+- *2024.01* SIAT Outstanding Contribution Award-2023
 - *2024.01* Director's Innovation Award-Outstanding Graduate Student, Shenzhen Institute of Advanced Integrated Technology, CAS-CUHK(中国科学院香港中文大学深圳先进集成技术研究所)
 - *2022.12* The 2022 SEIC Outstanding Contribution Award, Shenzhen Institute of Advanced Technology, CAS
 - *2022.06* Excellent Undergraduate Thesis of Shenyang Ligong University, SYLU
@@ -114,3 +116,4 @@ Keywords: Action Recognition, Knowledge Distillation, Low Resolution, Constructi
 - *2023.06 - now*, Research Assistant, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen.
 - *2022.05 - 2022.06*, Intern, Zhongke Hangmai CNC Software Shenzhen Co.,Ltd, Shenzhen.
 - *2020.05 - 2020.08*, Database Engineer (Internship), Guangdong Creawor Technology Development Co.,Ltd, Guiyang.
+
