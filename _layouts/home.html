@@ -67,10 +67,6 @@
             <a href="https://github.com/{{ site.author.github }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
             <a href="{{ site.author.researchgate }}" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
           </div>
-
-          <div class="visitor-map">
-            <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=9BG1Afbe_YyQFwXddOXHQVGQO1dp9xhXAeByvAviX18&cl=c2714f&w=a&co=faf9f7&ct=3d3929"></script>
-          </div>
         </div>
       </header>
 
@@ -81,7 +77,10 @@
       </section>
 
       <footer class="site-footer">
-        <p>© {{ site.time | date: "%Y" }} {{ site.author.name }} · Built with Jekyll on GitHub Pages</p>
+        <div class="visitor-map">
+          <img src="//mapmyvisitors.com/map_v2.png?cl=c2714f&w=320&t=tt&d=9BG1Afbe_YyQFwXddOXHQVGQO1dp9xhXAeByvAviX18&co=faf9f7&ct=3d3929" alt="Visitor map">
+        </div>
+        <p>© {{ site.time | date: "%Y" }} {{ site.author.name }} · Homepage</p>
       </footer>
     </div>
 

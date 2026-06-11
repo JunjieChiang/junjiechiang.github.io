@@ -130,12 +130,8 @@ img { max-width: 100%; display: block; }
 }
 .social-icons a:hover { background: var(--accent); color: #fff; transform: translateY(-2px); filter: none; }
 
-.visitor-map { margin: 30px auto 0; width: 100%; max-width: 260px; }
-.visitor-map img, .visitor-map canvas { width: 100% !important; height: auto !important; border-radius: 12px; }
-/* hide the MapMyVisitors page-view / visitor counter text, keep the map */
-.mapmyvisitors-visitors,
-.mapmyvisitors-date,
-.mapmyvisitors-bottom-text { display: none !important; }
+.visitor-map { margin: 0 auto 18px; width: 100%; max-width: 320px; }
+.visitor-map img { width: 100%; height: auto; border-radius: 12px; }
 .last-update {
   margin: 16px 0 0; font-family: var(--mono);
   font-size: 16px; letter-spacing: .02em; color: var(--secondary);
