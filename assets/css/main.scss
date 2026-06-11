@@ -87,8 +87,29 @@
 
 }
 
+.project-box {
+    padding: 1em 0 2em 0;
+
+    .project-box-image {
+        display: flex;
+        justify-content: center;
+        img {
+            max-width: 100%;
+            width: auto;
+            max-height: 420px;
+            border-radius: 6px;
+            box-shadow: 3px 3px 6px #888;
+        }
+    }
+
+    .project-box-text {
+        max-width: 100%;
+        margin-top: 1em;
+    }
+}
+
 $scroll_offset : 2em;
-h1:before, .anchor:before { 
+h1:before, .anchor:before {
     content: ''; 
     display: block; 
     position: relative; 

@@ -18,44 +18,58 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🎓 About me
-I am now a research assistant at Shenzhen Institute of Advanced Technology CAS, supervised by [Prof. Zhile Yang](https://scholar.google.com/citations?user=XcXa6wEAAAAJ&hl=zh-CN&oi=ao) and [A/Prof. Chengke Wu](https://scholar.google.com/citations?user=DzwZYrQAAAAJ&hl=zh-CN). My current research interests include:
-- Information Retrieval
-- Large Language Model
-- Natural Language Processing
-- AI4Science
+I am now a PhD student at the Hong Kong University of Science and Technology (Guangzhou), where I am honored to be supervised by [Prof. Lei Chen](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen). My current research interests include:
+- Agentic System
+- Multi-modal RAG
+- Unsupervised Machine Learning
 
 
 <!-- ➡️ Download my [Resumé](./uploads/Jiang's CV.pdf) -->
 
-### 🔺*Last Update: 2024/07/04*
+### 🔺*Last Update: 2026/06/11*
 
 # 🔥 News
-- *2023.10*: &nbsp;🎉🎉 Released a corpus and a dataset for entity-property relation extraction in CEM industry. For more details see [here](https://github.com/Construction-Material/Construction-Dataset-CONSD).
-- *2023.10*: &nbsp;🎉🎉 Released the code of relation extraction for construction documents. For more details see [here](https://github.com/Construction-Material/Ontology-for-Relation-Extraction-Ont4RE-).
-- *2023.04*: &nbsp;🎉🎉 Released the code of hydropower device detection. For more details see [here](https://codeocean.com/capsule/2938777/tree/v1)
+- *2025.09*: &nbsp;🎉🎉 I became a PhD student at HKUST(GZ).
+- *2025.08*: &nbsp;🎉🎉 I finished my research assistantship at HKUST(GZ).
+<!-- - *2025.05*: &nbsp;🎉🎉 One paper got accepted by ACL 2025 (Industry Track). -->
+- *2024.08*: &nbsp;🎉🎉 I finished my research assistantship at SIAT-CAS.
 
 # 📑 Publications 
 
-## Preprint
-<!--paper1-->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Advanced Engineering Informatics</div><img src='images/AIC.jpg' alt="sym" width="100%"></div></div>
+<!--paperDaLC-->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/DaLC.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Ont4RE: A computation framework for distant supervision and entity-property relation extraction in construction documents](https://github.com/JunjieChiang/Preprints/blob/main/Ontology-based%20distant%20supervision%20for%20extracting%20entity-property%20relations%20in%20construction%20documents.pdf)
+[DaLC: Difficulty-aware Label Completion for Crowdsourcing Truth Inference](https://github.com/JunjieChiang/DaLC) (Under Review)
 
-**Junjie Jiang**, Chengke Wu*, Wenjie Sun, Yong He, Yuanjun Guo, Su Yang, Zhile Yang
-- A novel framework Ont4RE is for distantly supervised relation extraction from CEM documents
-- Developed a domain ontology CEMO covering domain classes
-- Achieved distantly supervised annotation by entity-class matching using semantic similarity
-- A pre-trained BERT is developed for entity-property relation extraction
+**Junjie Jiang**, Jiachuan Wang*, Yongqi Zhang, Jiake Ge, Shuangyin Li, Lei Chen
+- Proposes DaLC, a Difficulty-aware Label Completion framework for crowdsourcing truth inference
+- Introduces a Neighbor Consistency Score (NCS) to quantify object inference difficulty from neighborhood consistency, splitting objects into easy, ambiguous, and hard subsets
+- Estimates worker reliability in a difficulty-conditioned manner and completes the sparse matrix via a heterogeneous worker-object graph supervised by difficulty-aware soft targets under a joint training objective
+- Experiments on 6 real-world and 34 simulated datasets show DaLC generalizes across aggregators and achieves the best downstream truth-inference performance
 
-[**Code Here**](https://github.com/Construction-Material/Ontology-for-Relation-Extraction-Ont4RE-) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Code Here**](https://github.com/JunjieChiang/DaLC)
 
-Keywords: Distant Supervision, Relation Extraction, Ontology, BERT, Construction Industry 
+Keywords: Crowdsourcing, Truth Inference, Label Completion, Worker Reliability, Graph Neural Network
 </div>
 </div>
 
-## Published
+<!--paper0-->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025 (Industry Track)</div><img src='images/archidocgen.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[ArchiDocGen: Multi-Agent Framework for Expository Document Generation in the Architectural Industry](https://aclanthology.org/2025.acl-industry.43/)
+
+**Junjie Jiang**, Haodong Wu, Yongqi Zhang, Songyue Guo, Bingcen Liu, Caleb Chen Cao, Ruizhe Shao, Chao Guan, Peng Xu, Lei Chen*
+- A multi-agent framework that automates method-statement (expository document) generation in the architectural industry
+- Decomposes the task into outline generation, section-based content generation, and polishing, each handled by a specialized agent
+- A section-based retriever and a section-based chain-of-thought (SeCoT) scheme inject domain knowledge and iterative reasoning
+- Achieves a 4.38 ContentScore and is deployed as a web application with industry partners
+
+Keywords: Multi-Agent, Retrieval-Augmented Generation, Document Generation, Large Language Model, Architectural Industry
+</div>
+</div>
+
 <!--paper3-->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Expert Systems With Applications</div><img src='images/ESWA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -95,6 +109,22 @@ Keywords: Action Recognition, Knowledge Distillation, Low Resolution, Constructi
 - Guo, Y., **Jiang, J.**, Wu, C., Yang, ., Hu, T. Method, System, and Related Equipment for Defect Detection Based on Battery Surface Images(基于电池表面图像的缺陷检测方法、系统及相关设备). National Invention Patent, CN115272330A, [authorized](./images/patent_3.png)
 - Yang, Z., **Jiang, J.**, Guo, Y., Liu, X., Wu, C. Method, System, and Related Equipment for Battery Surface Defect Detection Based on Machine Vision(基于机器视觉的电池表面缺陷检测方法、系统及相关设备). National Invention Patent, CN114972258B, [authorized](./images/patent_1.png)
 
+# 🛠 Projects
+
+<!--project-archidocgen-->
+<div class='project-box'>
+<div class='project-box-image'><img src='projects/archidocgen.gif' alt="ArchiDocGen demo" width="100%"></div>
+<div class='project-box-text' markdown="1">
+
+**ArchiDocGen** — Multi-Agent Expository Document Generation for the Architectural Industry
+
+A deployed web application that automatically drafts construction *method statements* end-to-end: outline generation, section-based content generation with retrieval-augmented reasoning, and final polishing — each handled by a specialized agent. Built and deployed with our industry partner [China State Construction Engineering (Hong Kong) Limited](https://www.csci.com.hk/), and presented at ACL 2025 (Industry Track).
+
+[**Paper**](https://aclanthology.org/2025.acl-industry.43/)
+
+</div>
+</div>
+
 # 🎖 Honors and Awards
 - *2024.01* SIAT President's Scholarship-Excellent Award (top 5%), Shenzhen Institute of Advanced Technology, CAS
 - *2024.01* SIAT Outstanding Contribution Award-2023
@@ -104,16 +134,15 @@ Keywords: Action Recognition, Knowledge Distillation, Low Resolution, Constructi
 - *2019.11* Third Prize in Robot Competition of the School of Mechanical Engineering, SYLU
 
 # 📖 Educations
-- *2022.06 - Present*, Visiting Student, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences
-- *2018.06 - 2022.09*, Undergraduate, Shenyang Ligong University
+- *2025.09 - Present*, PhD Student, Data Science and Analytics, HKUST(GZ)
+- *2022.05 - 2024.08*, Visiting Student, SIAT, Chinese Academy of Sciences
+- *2018.06 - 2022.09*, Undergraduate, Robot Engineering, SYLU
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Nanjing Normal University 
 - *2021.03*, Nanjing Normal University
 -->
 
-# 💻 Working
-- *2023.06 - now*, Research Assistant, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen.
-- *2022.05 - 2022.06*, Intern, Zhongke Hangmai CNC Software Shenzhen Co.,Ltd, Shenzhen.
-- *2020.05 - 2020.08*, Database Engineer (Internship), Guangdong Creawor Technology Development Co.,Ltd, Guiyang.
-
+# 💻 Work Experience
+- *2025.03 - 2025.08*, Research Assistant, HKUST(GZ).
+- *2022.05 - 2024.08*, Research Assistant, SIAT, Chinese Academy of Sciences.
