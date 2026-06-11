@@ -14,6 +14,8 @@ I am a PhD student at the Hong Kong University of Science and Technology (Guangz
 - Multi-modal RAG
 - Unsupervised Machine Learning
 
+<p class="last-update">Last updated · {{ site.time | date: "%Y-%m-%d" }}</p>
+
 # News
 - *2025.09* I became a PhD student at HKUST(GZ).
 - *2025.08* I finished my research assistantship at HKUST(GZ).
@@ -114,8 +116,23 @@ Keywords: Action Recognition, Knowledge Distillation, Low Resolution, Constructi
 
 # Projects
 
+<!--project-archidocgen-->
+<div class='project-box'>
+<div class='project-box-image'><img src='projects/archidocgen.gif' alt="ArchiDocGen demo" width="100%"></div>
+<div class='project-box-text' markdown="1">
+
+**ArchiDocGen** — Multi-Agent Expository Document Generation for the Architectural Industry
+
+A deployed web application that automatically drafts construction *method statements* end-to-end: outline generation, section-based content generation with retrieval-augmented reasoning, and final polishing — each handled by a specialized agent. Built and deployed with our industry partner [China State Construction Engineering (Hong Kong) Limited](https://www.cscechk.com/tc/bus_haihong2.php), and presented at [ACL 2025 (Industry Track)](https://aclanthology.org/2025.acl-industry.43/).
+
+[**Paper**](https://aclanthology.org/2025.acl-industry.43/)
+
+</div>
+</div>
+
 <!--project-dwss-->
 <div class='project-box'>
+<div class='project-box-image'><img src='projects/agent.gif' alt="DWSS Agent demo" width="100%"></div>
 <div class='project-box-text' markdown="1">
 
 **DWSS Agent** — Evidence-Grounded Agent for Digital Engineering Supervision
@@ -123,21 +140,6 @@ Keywords: Action Recognition, Knowledge Distillation, Low Resolution, Constructi
 A natural-language agent for Hong Kong's Digital Works Supervision System (DWSS) that lets project staff query engineering documents and workflow status in plain language. It ingests and indexes scanned / engineering documents (PDF, images, tables), understands a query across multi-turn context, and performs two-stage retrieval — file-level coarse location followed by page-level fine location, asking for clarification when a query is ambiguous. Answers are generated strictly from retrieved evidence, returning source pages and citations and replying *"insufficient evidence"* rather than guessing — an auditable, traceable QA loop that lowers manual lookup cost and improves answer reliability in real construction-supervision scenarios.
 
 </div>
-<div class='project-box-image'><img src='projects/agent.gif' alt="DWSS Agent demo" width="100%"></div>
-</div>
-
-<!--project-archidocgen-->
-<div class='project-box'>
-<div class='project-box-text' markdown="1">
-
-**ArchiDocGen** — Multi-Agent Expository Document Generation for the Architectural Industry
-
-A deployed web application that automatically drafts construction *method statements* end-to-end: outline generation, section-based content generation with retrieval-augmented reasoning, and final polishing — each handled by a specialized agent. Built and deployed with our industry partner [China State Construction Engineering (Hong Kong) Limited](https://www.cscechk.com/tc/bus_haihong2.php), and presented at ACL 2025 (Industry Track).
-
-[**Paper**](https://aclanthology.org/2025.acl-industry.43/)
-
-</div>
-<div class='project-box-image'><img src='projects/archidocgen.gif' alt="ArchiDocGen demo" width="100%"></div>
 </div>
 
 # Honors

@@ -130,6 +130,13 @@ img { max-width: 100%; display: block; }
 }
 .social-icons a:hover { background: var(--accent); color: #fff; transform: translateY(-2px); filter: none; }
 
+.visitor-map { margin: 30px auto 0; width: 100%; max-width: 260px; }
+.visitor-map img, .visitor-map canvas { width: 100% !important; height: auto !important; border-radius: 12px; }
+.last-update {
+  margin: 16px 0 0; font-family: var(--mono);
+  font-size: 16px; letter-spacing: .02em; color: var(--secondary);
+}
+
 /* ----------------------------------------------------------- content */
 .content {
   flex: 1; min-width: 0;
@@ -224,9 +231,23 @@ img { max-width: 100%; display: block; }
 .patent-list a { color: var(--accent); font-weight: 500; }
 
 /* ----------------------------------------------------------- project */
-.project-box { margin: 18px 0 6px; }
-.project-box-text { margin-bottom: 16px; }
-.project-box-text > p:first-child { font-size: 16px; font-weight: 600; color: var(--text); margin-bottom: 8px; }
+.project-box {
+  display: grid;
+  grid-template-columns: 540px 1fr;
+  gap: 30px;
+  align-items: start;
+  padding: 26px 0;
+  border-bottom: 1px solid var(--border-soft);
+}
+.project-box-image {
+  border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
+  background: var(--surface); box-shadow: 0 8px 26px var(--shadow);
+  transition: transform .35s ease, box-shadow .35s ease;
+}
+.project-box:hover .project-box-image { transform: translateY(-3px); box-shadow: 0 14px 34px var(--shadow); }
+.project-box-image img { width: 100%; height: auto; display: block; }
+.project-box-text > p { font-size: 15.5px; color: var(--text); }
+.project-box-text > p:first-child { font-size: 19px; font-weight: 600; color: var(--text); margin-bottom: 9px; }
 .project-box-text p:last-child a {
   display: inline-block; margin-top: 4px;
   font-family: var(--mono); font-size: 13px; color: var(--accent);
@@ -234,11 +255,6 @@ img { max-width: 100%; display: block; }
   transition: background-color .2s, color .2s;
 }
 .project-box-text p:last-child a:hover { background: var(--accent); color: #fff; filter: none; }
-.project-box-image {
-  border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
-  background: var(--surface); box-shadow: 0 8px 26px var(--shadow);
-}
-.project-box-image img { width: 100%; height: auto; display: block; }
 
 /* ----------------------------------------------------------- footer */
 .site-footer {
@@ -275,7 +291,7 @@ img { max-width: 100%; display: block; }
 @media (max-width: 640px) {
   .avatar { width: 150px; height: 150px; }
   .site-name { font-size: 23px; }
-  .paper-box { grid-template-columns: 1fr; gap: 14px; }
+  .paper-box, .project-box { grid-template-columns: 1fr; gap: 14px; }
   .paper-box-image { max-width: 360px; }
   .page__content > ul > li:has(> em:first-child) { grid-template-columns: 1fr; gap: 1px; }
 }
