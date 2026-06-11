@@ -8,10 +8,10 @@ redirect_from:
 ---
 
 # About
-I am a PhD student at the Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Lei Chen](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen). My work sits at the intersection of large language models and data systems — building agentic pipelines and multimodal retrieval that turn messy, knowledge-intensive sources into reliable, structured output. Before my PhD, I spent three years as a research assistant across HKUST(GZ) and SIAT-CAS, working on document intelligence and computer vision for industrial settings.
+I am a PhD student at the Hong Kong University of Science and Technology (Guangzhou), supervised by [Prof. Lei Chen](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen). My work sits at the intersection of large language models and data systems — building agentic pipelines and multimodal retrieval that turn messy, knowledge-intensive sources into reliable, structured output. I obtained my BEng from SYLU in 2022. Before starting my PhD, I spent three years as a research assistant, working at [SIAT-CAS](https://www.siat.ac.cn/) advised by [Prof. Zhile Yang](https://people.ucas.edu.cn/~Zhile_Yang) and [Prof. Chengke Wu](https://scholar.google.com/citations?user=DzwZYrQAAAAJ&hl=zh-CN), and later at HKUST(GZ) on LLM agents, multimodal understanding, and unsupervised learning for industrial scenarios.
 
 - Agentic System
-- Multi-modal RAG
+- Multi-modal Understanding
 - Unsupervised Machine Learning
 
 <p class="last-update">Last updated · {{ site.time | date: "%Y-%m-%d" }}</p>
