@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.author.name }} — Homepage</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.author.name }}">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="{{ site.author.name }}">
+    <meta property="og:description" content="{{ site.description }}">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/images/favicon-16x16.png' | relative_url }}">
+    <link rel="manifest" href="{{ '/images/site.webmanifest' | relative_url }}">
+
+    <!-- avoid theme flash -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('theme');
+          if (t) document.documentElement.setAttribute('data-theme', t);
+        } catch (e) {}
+      })();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+
+    <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+  </head>
+
+  <body>
+    <nav class="top-nav">
+      <div class="nav-container">
+        <div class="nav-left"><a href="#top">Junjie Jiang</a></div>
+        <nav class="nav-mid">
+          <a href="#about">About</a>
+          <a href="#news">News</a>
+          <a href="#publications">Publications</a>
+          <a href="#projects">Projects</a>
+          <a href="#honors">Honors</a>
+        </nav>
+        <div class="nav-right">
+          <button id="themeToggle" class="theme-toggle" title="Toggle light / dark" aria-label="Toggle theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <span id="top"></span>
+    <div class="wrapper">
+      <header class="sidebar">
+        <div class="profile-card">
+          <img class="avatar" src="{{ '/images/android-chrome-512x512.png' | relative_url }}" alt="{{ site.author.name }}">
+          <h1 class="site-name">{{ site.author.name }}</h1>
+          <p class="site-role">PhD Student ·<br><a href="https://www.hkust-gz.edu.cn/">HKUST (Guangzhou)</a></p>
+          <p class="site-email">{{ site.author.email }}</p>
+          <div class="social-icons">
+            <a href="mailto:{{ site.author.email | replace: ' at ', '@' }}" title="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="{{ site.author.googlescholar }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+            <a href="https://github.com/{{ site.author.github }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="{{ site.author.researchgate }}" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
+          </div>
+        </div>
+      </header>
+
+      <section class="content">
+        <div class="page__content">
+          {{ content }}
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <p>© {{ site.time | date: "%Y" }} {{ site.author.name }} · Built with Jekyll on GitHub Pages</p>
+      </footer>
+    </div>
+
+    <script>
+      (function () {
+        // theme toggle
+        var btn = document.getElementById('themeToggle');
+        var icon = btn.querySelector('i');
+        function current() {
+          return document.documentElement.getAttribute('data-theme')
+            || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        }
+        function paint() { icon.className = current() === 'dark' ? 'fa-solid fa-sun' : 'fa-solid fa-moon'; }
+        paint();
+        btn.addEventListener('click', function () {
+          var next = current() === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+          paint();
+        });
+
+        // scroll reveal
+        var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var blocks = document.querySelectorAll('.page__content > h1, .page__content > p, .page__content > ul, .paper-box, .project-box, .patent-list');
+        if (reduce || !('IntersectionObserver' in window)) {
+          blocks.forEach(function (b) { b.classList.add('is-in'); }); return;
+        }
+        blocks.forEach(function (b) { b.classList.add('reveal'); });
+        var io = new IntersectionObserver(function (es) {
+          es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); } });
+        }, { rootMargin: '0px 0px -6% 0px', threshold: .06 });
+        blocks.forEach(function (b) { io.observe(b); });
+      })();
+    </script>
+  </body>
+</html>
