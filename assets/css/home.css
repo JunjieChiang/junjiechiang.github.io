@@ -249,7 +249,8 @@ img { max-width: 100%; display: block; }
   transition: transform .35s ease, box-shadow .35s ease;
 }
 .project-box:hover .project-box-image { transform: translateY(-3px); box-shadow: 0 14px 34px var(--shadow); }
-.project-box-image img { width: 100%; height: auto; display: block; }
+.project-box-image img,
+.project-box-image video { width: 100%; height: auto; display: block; }
 .project-box-text > p { font-size: 15.5px; color: var(--text); }
 .project-box-text > p:first-child { font-size: 19px; font-weight: 600; color: var(--text); margin-bottom: 9px; }
 .project-box-text p:last-child a {

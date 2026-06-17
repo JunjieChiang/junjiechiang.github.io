@@ -118,7 +118,7 @@ Keywords: Action Recognition, Knowledge Distillation, Low Resolution, Constructi
 
 <!--project-archidocgen-->
 <div class='project-box'>
-<div class='project-box-image'><img src='projects/archidocgen.gif' alt="ArchiDocGen demo" width="100%"></div>
+<div class='project-box-image'><video src='projects/method_statement_3_5x.mp4' autoplay loop muted playsinline width="100%"></video></div>
 <div class='project-box-text' markdown="1">
 
 **ArchiDocGen** — Multi-Agent Expository Document Generation for the Architectural Industry
@@ -130,9 +130,21 @@ A deployed web application that automatically drafts construction *method statem
 </div>
 </div>
 
+<!--project-compliance-->
+<div class='project-box'>
+<div class='project-box-image'><video src='projects/cailiao_shenhe_4x.mp4' autoplay loop muted playsinline width="100%"></video></div>
+<div class='project-box-text' markdown="1">
+
+**Material Compliance Checking** — Agentic RAG for Automated Material Compliance Review
+
+An agentic retrieval-augmented generation (RAG) system that automatically checks construction material submittals against project specifications and regulatory standards. An LLM agent plans the review, retrieves the relevant clauses from heterogeneous specification documents, and reasons over the evidence to decide whether each material property complies — flagging non-conformities with the exact source clauses and citations rather than issuing unsupported verdicts. By grounding every compliance decision in retrieved evidence, it turns a tedious, error-prone manual review into a traceable, auditable workflow that accelerates material approval in construction projects.
+
+</div>
+</div>
+
 <!--project-dwss-->
 <div class='project-box'>
-<div class='project-box-image'><img src='projects/agent.gif' alt="DWSS Agent demo" width="100%"></div>
+<div class='project-box-image'><video src='projects/pdfrender_2x.mp4' autoplay loop muted playsinline width="100%"></video></div>
 <div class='project-box-text' markdown="1">
 
 **DWSS Agent** — Evidence-Grounded Agent for Digital Engineering Supervision
